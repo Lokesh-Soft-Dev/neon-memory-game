@@ -4,8 +4,6 @@
 
 - Ideal for demonstrating front-end development, UI/UX design, and game logic skills.
 
----
-
 ## 🌐 Live Demo : https://lokesh-soft-dev.github.io/neon-memory-game/
 
 ---
