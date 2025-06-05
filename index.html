@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Memory Matrix</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <canvas id="particles"></canvas>
+    <div class="game-container">
+        <div class="game-header">
+            <h1><span class="neon-text">NEON</span> MEMORY MATRIX</h1>
+            <div class="game-controls">
+                <div class="difficulty-selector">
+                    <label for="difficulty">DIFFICULTY:</label>
+                    <div class="select-wrapper">
+                        <select id="difficulty">
+                            <option value="easy">EASY (4×4)</option>
+                            <option value="medium">MEDIUM (6×6)</option>
+                            <option value="hard">HARD (8×8)</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="button-group">
+                    <button id="start-btn" class="glow-button">
+                        <i class="fas fa-play"></i> START
+                    </button>
+                    <button id="reset-btn" class="glow-button">
+                        <i class="fas fa-sync-alt"></i> RESET
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="game-info">
+            <div class="info-box">
+                <div class="info-icon"><i class="fas fa-clock"></i></div>
+                <div class="info-content">
+                    <div class="info-label">TIME</div>
+                    <div id="time" class="info-value">00:00</div>
+                </div>
+            </div>
+            <div class="info-box">
+                <div class="info-icon"><i class="fas fa-sync-alt"></i></div>
+                <div class="info-content">
+                    <div class="info-label">MOVES</div>
+                    <div id="moves" class="info-value">0</div>
+                </div>
+            </div>
+            <div class="info-box">
+                <div class="info-icon"><i class="fas fa-star"></i></div>
+                <div class="info-content">
+                    <div class="info-label">SCORE</div>
+                    <div id="score" class="info-value">0</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="game-board" id="game-board"></div>
+        
+        <div class="game-modal hidden" id="game-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>MATRIX COMPLETE!</h2>
+                    <div class="confetti"></div>
+                </div>
+                <div class="modal-stats">
+                    <div class="stat-item">
+                        <i class="fas fa-clock"></i>
+                        <span id="final-time">00:00</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-sync-alt"></i>
+                        <span id="final-moves">0</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-star"></i>
+                        <span id="final-score">0</span>
+                    </div>
+                </div>
+                <button id="play-again-btn" class="glow-button pulse">
+                    <i class="fas fa-redo"></i> PLAY AGAIN
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="particles.js"></script>
+</body>
+</html>
