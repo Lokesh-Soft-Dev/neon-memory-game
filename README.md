@@ -5,7 +5,7 @@
 
 ---
 
-## 🌐 Live Demo :
+## 🌐 Live Demo : https://lokesh-soft-dev.github.io/neon-memory-game/
 
 ---
 
