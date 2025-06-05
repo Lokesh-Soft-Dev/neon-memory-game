@@ -36,23 +36,6 @@
 
 ---
 
-## 📁 Folder Structure
-
-```plaintext
-📦 root
-├── index.html
-├── styles.css
-├── script.js
-├── particles.js
-├── Sounds/
-│   ├── Flip.mp3
-│   ├── Matched.mp3
-│   ├── Mis Match.mp3
-│   └── Win.mp3
-└── README.md
-
----
-
 ## 👨‍💻 Author
 
 ## LOKESH K
