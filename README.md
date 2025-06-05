@@ -14,11 +14,11 @@
 
 🧩 Classic memory card game with different levels:
 
-- Easy (4×4 grid)
+  - Easy (4×4 grid)
 
-- Medium (6×6 grid)
+  - Medium (6×6 grid)
 
-- Hard (8×8 grid)
+  - Hard (8×8 grid)
 
 🔊 Fun sounds when you flip, match, get it wrong, or win
 
