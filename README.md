@@ -1,6 +1,7 @@
 # 🚀 Neon Memory Matrix
 
 - A visually striking, fully responsive memory game built using **HTML**, **CSS**, and **JavaScript**.
+
 - Ideal for demonstrating front-end development, UI/UX design, and game logic skills.
 
 ---
