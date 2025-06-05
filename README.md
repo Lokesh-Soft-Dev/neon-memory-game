@@ -10,16 +10,25 @@
 
 ## 🧠 Features
 
-- ✨ Neon-themed UI with animated particles
-- 🧩 Classic memory match gameplay with difficulty levels:
-  - Easy (4×4)
-  - Medium (6×6)
-  - Hard (8×8)
-- 🔊 Sound effects for flip, match, mismatch, and win
-- 📱 Fully responsive and mobile-friendly
-- 🎉 Animated win screen with confetti
-- ⏱️ Tracks time, moves, and score dynamically
-- ⚡ Built with **vanilla JavaScript** (no frameworks)
+✨ Bright neon-style design with moving particles
+
+🧩 Classic memory card game with different levels:
+
+Easy (4×4 grid)
+
+Medium (6×6 grid)
+
+Hard (8×8 grid)
+
+🔊 Fun sounds when you flip, match, get it wrong, or win
+
+📱 Works well on phones, tablets, and computers
+
+🎉 Cool win screen with confetti animation
+
+⏱️ Shows your time, number of moves, and score while playing
+
+⚡ Made using only plain JavaScript (no extra libraries or tools)
 
 ---
 
