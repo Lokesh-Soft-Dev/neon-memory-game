@@ -1,7 +1,7 @@
 # 🚀 Neon Memory Matrix
 
-> A visually striking, fully responsive memory game built using **HTML**, **CSS**, and **JavaScript**.
-> Ideal for demonstrating front-end development, UI/UX design, and game logic skills.
+- A visually striking, fully responsive memory game built using **HTML**, **CSS**, and **JavaScript**.
+- Ideal for demonstrating front-end development, UI/UX design, and game logic skills.
 
 ---
 
@@ -50,3 +50,11 @@
 │   ├── Mis Match.mp3
 │   └── Win.mp3
 └── README.md
+
+---
+
+## 👨‍💻 Author
+
+## LOKESH K
+
+---
